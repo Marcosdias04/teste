@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GamesGPT | Aviator</title>
+		<link rel="icon" href="../imagens/favicon.png" type="image/x-icon" />
+
+		<link rel="stylesheet" href="../estilos/layout.css" />
+		<link rel="stylesheet" href="../estilos/styles.css" />
+		<link rel="stylesheet" href="../estilos/aviator.css" />
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="game-aviator">
+			<div class="sinal">Gere um sinal</div>
+			<div class="list-sinal">
+				<div class="jogadas">
+					<div class="label">Jogadas</div>
+					<div class="value">--</div>
+				</div>
+				<div class="saida">
+					<div class="label">Saída</div>
+					<div class="value">--</div>
+				</div>
+				<div class="valido">
+					<div class="label">Válido até</div>
+					<div class="value">--</div>
+				</div>
+			</div>
+		</div>
+		<div class="button-aviator">IDENTIFICAR SINAL</div>
+		
+		<div style="padding:5px;">
+		<center><a href="#jogar">
+				<input class="btn2" name="btn" type="button" value="JOGAR AGORA" /></a
+				></input></center></div>
+
+		<div style="padding:5px;">
+		<center><a href="https://autobet.one/jogos/conta.html" id="cadastro">
+				<input class="btn2" name="btn" type="button" value="CRIAR CONTA" /></a
+				></input></center></div>
+				
+		
+		<center><a href="./deposito.html">
+				<input class="btn2" name="btn" type="button" value="DEPOSITAR" /></a
+				></input></center><div style="padding:5px;"></div>
+			
+			<div id="jogar" style="padding:10px;">
+			<p>Se o jogo não carregar, 
+			<a href="https://eskybet.com/casino/c/play/REAL/spb-tb-aviator/spribe" target="_blank" style="color:#fff;">clique aqui</a>.</p>
+				</div>
+
+		<div class="iframe-container">
+			<div class="spinner-container">
+				Carregando casa...
+				<div class="spinner"></div>
+			</div>
+			<iframe
+				class="iframe-embed"
+				id="iframe-aviator"
+				src="https://eskybet.com/casino/c/play/REAL/spb-tb-aviator/spribe"
+				frameborder="0"
+			></iframe>
+		</div>
+
+		<script src="../codigo/index2.js"></script>
+		<script src="../codigo/aviator.js"></script>
+		<script src="../codigo/injectconfig2.js"></script>
+	</body>
+</html>
